@@ -1,0 +1,212 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Other.JPG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center
+    
+}
+* {
+    font-family:"Times New Roman";
+}
+a.twitter{
+    background-image: url(th.jfif);
+}
+h1.title1{
+    font-family: "Comic Sans MS";
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 21px;
+    margin-bottom: 10.5px;
+    font-size: 39px;
+}
+ul li a:hover{
+    background-color: rgb(4, 38, 44);
+    color: rgb(248, 248, 248);
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333333;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+ul  li.active  a {
+    background-color: rgb(4, 38, 44);
+    color: rgb(248, 247, 247);
+}
+.social_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    float: right;
+}
+.tel_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    float: right;
+}
+#twitter {
+    background-image: url(th.jfif);
+}
+#facebook{
+    background-image: url(Le-logo-Facebook.jpg);
+}
+#Linked_In{
+    background-image: url(images.png)
+}
+#Insta{
+    background-image: url(télécharger.png)
+}
+#tel{
+    background-image: url(as.png);
+}
+ul li a.entête{
+    text-decoration: none;
+    color: rgb(144, 234, 250);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+    letter-spacing: 1px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: "Comic Sans MS";
+}
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration:none
+}
+ul li {
+    display: inline-block;
+;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    background-color:#1e8acd;
+    display: block;
+    color: rgb(5, 22, 36);
+    background-position: center;
+    background-size: cover;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e2529;
+    color: rgb(224, 211, 211);
+    font-size: 12px;
+}
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-items h1{
+    padding: 10px 0;
+    font-size: 25px;
+    color: rgb(37, 35, 35);
+    text-transform: uppercase;
+}
+.footer-items p{
+    color: rgb(39, 32, 32);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.footer h2{
+    margin: 10px 0;
+    color: rgb(41, 35, 35);
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 21px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    transition: all .2s ease-in-out;
+}
+.PuceRouge {
+    display: list-item;
+    list-style-image: url(https://www.merveilles-du-monde.com/images/PuceRouge.gif);
+    list-style-position: inside;
+    
+}
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.thumbnail .caption {
+    padding: 9px;
+}
+section{
+    font-size: larger;
+}
+img {
+    vertical-align: middle;
+}
+.thumbnail>img, .thumbnail a>img {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.title h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Lucida Calligraphy";
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+    position: fixed;
+}
